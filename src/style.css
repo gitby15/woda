@@ -1,0 +1,56 @@
+#ppt-panel{
+    outline:solid black 1px;
+    color:#333;
+    background-color:#ddd;
+    position:absolute;
+    top:8px;
+    left:8px;
+    cursor:pointer;
+    z-index:1000;
+    width:1200px;
+    height:900px;
+}
+
+#rm-btn{
+    /*outline:red solid 1px;*/
+    width:100px;
+    height:100px;
+}
+
+.title{
+    width:100%;
+    text-align: center;
+    font-size:90px;
+
+}
+
+
+.content{
+    padding:10px 10px 10px 30px;
+    outline:black solid 1px;
+    color:#555;
+    height:300px;
+}
+
+.content ul>li{
+    margin:5px;
+    padding:5px;
+    font-size:20px;
+    line-height:25px;
+    transition: 0.1s;
+    vertical-align: middle;
+}
+.content ul>li:hover{
+    padding-left:35px;
+    font-size:25px;
+    color:#333;
+}
+.describe{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:250px;
+    border-bottom:black solid 1px;
+    font-size:20px;
+    line-height:25px;
+}

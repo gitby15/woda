@@ -1,0 +1,11 @@
+#output
+dist/
+
+#ide
+.idea/
+
+#dependency
+node_modules/
+
+#yarn
+yarn.lock
